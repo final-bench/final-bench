@@ -1,0 +1,22 @@
+name: FINAL Bench
+description: >
+  FINAL Bench (Frontier Intelligence Nexus for AGI-Level Verification) is the first
+  benchmark for measuring functional metacognition in LLMs — the ability to detect
+  and correct one's own reasoning errors. 100 tasks across 15 domains, 8 TICOS
+  metacognitive types, and 3 difficulty grades. 5-axis rubric separating declarative
+  metacognition (MA) from procedural error recovery (ER).
+
+tasks:
+  - id: default
+    config: default
+    split: train
+
+field_spec:
+  input: prompt
+  target: hidden_trap
+
+solvers:
+  - name: generate
+
+scorers:
+  - name: model_graded_qa
