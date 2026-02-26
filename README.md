@@ -317,7 +317,7 @@ Taebong Kim, Minsik Kim, Sunyoung Choi, Jaewon Jang
 ```bibtex
 @dataset{final_bench_2026,
   title={FINAL Bench: Measuring Functional Metacognitive Reasoning in Large Language Models},
-  author={Kim, Taebong and Kim, Minsik and Choi, Sunyoung and Jang, Jaewon},
+  author={Taebong and Kim, Minsik Kim, Sunyoung Choi, Jaewon Jang},
   year={2026},
   version={3.0},
   publisher={Hugging Face},
