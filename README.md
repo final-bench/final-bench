@@ -21,7 +21,8 @@ We are **VIDRAFT**, an AI deep-tech lab. **FINAL-Bench** is our open home for mo
 
 | Benchmark | Result |
 |---|---|
-| **S1MB** (System One Mosaic, 102 models) | 🥇 **#1** — ZTC v2 beats the open JEV family |
+| **S1MB** (System One Mosaic) | 🥇 **#1 in English (160 models) AND Japanese (16)** — Darwin-27B-ZTC-v5 double crown |
+| **VKORE-46M-NPU** | 🥇 **pretrained from scratch on an inference-only NPU** (no GPU) — loss trajectory 0.99 vs a GPU reference |
 | **AIME 2026 · HMMT 2026** (math) | 🥇 **#1, perfect score** |
 | **GPQA Diamond** (science) | 🥇 **#1 under 500B** (94.44) |
 | **Polaris** (drug discovery, 16 tasks) | 🥇 **world #1** |
@@ -37,6 +38,12 @@ We are **VIDRAFT**, an AI deep-tech lab. **FINAL-Bench** is our open home for mo
 | 🔍 | **AX-RAY** — AI safety diagnosis (117 risk items; 23 of 25 public models flagged). | [HF](https://huggingface.co/VIDraft) |
 | 🏁 | **Leaderboards** — S1MB, OSC, ALL-Bench and more. | [HF](https://huggingface.co/FINAL-Bench) |
 
+## ⚡ Latest: VKORE — training on an inference-only NPU
+
+> We pretrained a language model **from scratch on an inference-only NPU, with real backpropagation, no GPU**. Trained under identical conditions on a GPU, the loss trajectories correlate at **0.99**. VKORE is our hardware-independent acceleration layer: **"CUDA for NPUs."**
+
+**[Model: VKORE-46M-NPU](https://huggingface.co/FINAL-Bench/VKORE-46M-NPU)** · **[Technical write-up](https://huggingface.co/blog/FINAL-Bench/backpropagation-on-an-inference-only-npu-pretraini)**
+
 ## 🔥 Featured: ONGRID
 
 > **Structure → Retrieve → Reason → Decide.** Upload documents, watch them become a glowing 3D ontology graph, ask in 한국어/English/中文, and get an answer **verified by ZTC in zero tokens.**
@@ -45,7 +52,7 @@ We are **VIDRAFT**, an AI deep-tech lab. **FINAL-Bench** is our open home for mo
 
 ## 📫 Connect
 
-🌐 [vidraft.net](https://vidraft.net) · 🤗 [FINAL-Bench](https://huggingface.co/FINAL-Bench) · [VIDraft](https://huggingface.co/VIDraft) · 🧵 [@vidraft_lab](https://www.threads.com/@vidraft_lab) · 𝕏 [@VIDRAFT_ai](https://x.com/VIDRAFT_ai) · ✉️ `vidraft@mail.vidraft.net`
+🌐 [vidraft.net](https://vidraft.net) · 📊 [THE VC profile](https://thevc.kr/vidraft) · 🤗 [FINAL-Bench](https://huggingface.co/FINAL-Bench) · [VIDraft](https://huggingface.co/VIDraft) · 🧵 [@vidraft_lab](https://www.threads.com/@vidraft_lab) · 𝕏 [@VIDRAFT_ai](https://x.com/VIDRAFT_ai) · ✉️ `vidraft@mail.vidraft.net`
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=final-bench&style=flat-square&color=4ea8ff" alt="profile views">
